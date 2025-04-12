@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.hamderber.noapotheosisnames.mixin",
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+	"NameHelperMixin",
+	"LootControllerMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
